@@ -52,7 +52,7 @@ function RegisterPage() {
 	return (
 		<div className="flex flex-col items-center justify-center h-screen bg-gray-100">
 			<div className="p-6 bg-white rounded shadow-md w-96">
-				<h2 className="text-2xl mb-4">Register</h2>
+				<h2 className="text-2xl mb-4">Registration</h2>
 				<input name="firstName" onChange={handleInputChange} placeholder="First Name" className="p-2 border border-gray-300 rounded mt-2 w-full" />
 				<input name="lastName" onChange={handleInputChange} placeholder="Last Name" className="p-2 border border-gray-300 rounded mt-2 w-full" />
 				<input name="email" type="email" onChange={handleInputChange} placeholder="Email" className="p-2 border border-gray-300 rounded mt-2 w-full" />
