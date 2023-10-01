@@ -58,7 +58,7 @@ function RegisterPage() {
 				<input name="email" type="email" onChange={handleInputChange} placeholder="Email" className="p-2 border border-gray-300 rounded mt-2 w-full" />
 				<input name="password" type="password" onChange={handleInputChange} placeholder="Password" className="p-2 border border-gray-300 rounded mt-2 w-full" />
 				<input name="confirmPassword" type="password" onChange={handleInputChange} placeholder="Confirm Password" className="p-2 border border-gray-300 rounded mt-2 w-full" />
-				<button onClick={handleSubmit} className="p-2 bg-blue-500 text-white rounded mt-4 w-full">Register</button>
+				<button onClick={handleSubmit} className="p-2 bg-blue-500 text-white rounded mt-4 w-full">Registration</button>
 			</div>
 		</div>
 	);
